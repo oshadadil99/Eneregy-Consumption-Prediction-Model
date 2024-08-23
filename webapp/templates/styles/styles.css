@@ -1,0 +1,73 @@
+/* Apply a background image to the entire webpage */
+body {
+    background-image: url('bg1.jpg'); /* Replace with your image path */
+    background-size: cover; /* Make the image cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Make the background image stay fixed while scrolling */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+body {
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 56px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  label {
+    flex: 0 0 150px; /* Adjust width as needed */
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    align: center;
+    width: 20%;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 100px;
+  }
+  
+  #form1{
+    align-items: center;
+    border: 5px solid rgba(0, 0, 0, 0.2); /* Increase border width and make it semi-transparent */
+    background-color: rgba(255, 255, 255, 0); /* Transparent background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow with offset and blur */
+    padding: 20px; /* Optional: Add padding inside the div */
+    margin: 20px; /* Optional: Add margin outside the div */
+    border-radius: 8px; 
+  }
+  .input_field {
+    
+    align-items: center;
+}

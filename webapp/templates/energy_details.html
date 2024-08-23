@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Energy Consumption Predicted</title>
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+	<h1 id="h1">Energy Consumption Predictor</h1>
+	<p>Please fill this form with your correct and true details</p>
+
+	<form action="http://127.0.0.1:5000/getresults" method="POST">
+	<div id="form1">
+		<p>Name :<input class="input_field" type="text" name="name"/> </p>
+		<p>Semester :<input class="input_field" type="text" name="semester"/> </p>
+		<p>occupancy - Student :<input class="input_field" type="text" name="gender"/> </p>
+		<p>perm-academic Staff :<input class="input_field" type="text" name="age"/> </p>
+		<p>temp-acaemic :<input class="input_field" type="text" name="tc"/> </p>
+		<p>executive-non-academic :<input class="input_field" type="text" name="hdl"/> </p>
+		<p>other non academic :<input class="input_field" type="text" name="smoke"/> </p>
+		<p>No-of-degree-programs :<input class="input_field" type="text" name="bpm"/> </p>
+		<p>No-Of- departments :<input class="input_field" type="text" name="diab"/> </p>
+
+		<p><input type="submit" value="Submit Details"/></p>
+	</div>
+
+	</form>
+
+</body>
+</html>
